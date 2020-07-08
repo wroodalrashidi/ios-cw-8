@@ -25,6 +25,7 @@ class weatherDetails: UIViewController {
         super.viewDidLoad()
         
        getWeatherDetails()
+        remarkablePlaceImageVIew.image = city.remarkablePlaceImage()
     }
     
     
